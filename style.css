@@ -1,0 +1,24 @@
+/* Basic stylesheet */
+@charset "UTF-8";
+
+		body {
+			background-color: rgb(148, 251, 240);
+			font-family: Arial, sans-serif;
+			font-size: 20px;
+		}
+		h1 {
+			color: rgb(16, 16, 31);
+            background-color: #3a7274;
+			text-align: center;
+		}
+		h2 {
+			color: rgb(151, 10, 10);
+			margin-left: 20px;
+		}
+		p {
+			color: #333;
+			line-height: 1.5; /* Aumenta o espaçamento entre as linhas para melhorar a legibilidade */
+			margin-left: 40px; /* Adiciona uma margem à esquerda para criar um recuo */
+			margin-right: 40px; /* Adiciona uma margem à direita para criar um recuo */
+			text-align: justify; /* Justifica o texto para criar um layout mais limpo e organizado */
+		}
